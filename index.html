@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Receta Shqiptare</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Receta Shqiptare sipas Krahinave</h1>
+    <div class="recipe-container">
+        <img src="file:///home/alba/Desktop/alba/projekti%20tik/img/bakllava.jpg" alt="Bakllava">
+        <h2>Recetë e Shqipërisë së Mesme: Bakllava</h2>
+        <button onclick="showRecipe('bakllava')">Shfaq Recetën</button>
+    </div>
+    <div class="recipe-container">
+        <img src="file:///home/alba/alba/sheqerpare.jpeg" alt="Sheqerpare">
+        <h2>Recetë e Shqipërisë së Jugut: Sheqerpare</h2>
+        <button onclick="showRecipe('sheqerpare')">Shfaq Recetën</button>
+    </div>
+    <div class="recipe-container">
+        <img src="file:///home/alba/alba/Kadaif.jpeg" alt="Kadaif">
+        <h2>Recetë e Shqipërisë Veriore: Kadaif</h2>
+        <button onclick="showRecipe('kadaif')">Shfaq Recetën</button>
+    </div>
+    <div class="recipe-container">
+        <img src="file:///home/alba/alba/Shendetlie.jpeg" alt="Shendetlie">
+        <h2>Recetë e Shqipërisë së Mesme: Shendetlie</h2>
+        <button onclick="showRecipe('shendetlie')">Shfaq Recetën</button>
+    </div>
+
+    <div id="recipeDetails" style="display: none;">
+        <table id="ingredientsTable">
+            <thead>
+                <tr>
+                    <th>Përbërësit</th>
+                    <th>Masa</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Përbërësit do të vendosen këtu përmes JavaScript -->
+            </tbody>
+        </table>
+        <h3>Përgatitja:</h3>
+        <p id="preparationText">
+            <!-- Përgatitja do të vendoset këtu përmes JavaScript -->
+        </p>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
